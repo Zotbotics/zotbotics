@@ -1,0 +1,42 @@
+.home-header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #193c4f;
+    height: 400px;
+    width: 100%;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.zotbotics-banner {
+    width: 500px;
+    height: 100px;
+    margin: 40px;
+    text-align: center;
+}
+
+.text-container {
+    color: white;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.meeting {
+    width: 600px;
+    height: 400px;
+}
+
+.info-section {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 20px;
+}
+
+.interested-section {
+    text-align: center;
+}
