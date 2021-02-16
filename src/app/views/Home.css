@@ -22,6 +22,7 @@
 .text-container {
     color: white;
     text-align: center;
+    padding: 30px;
     padding-left: 20%;
     padding-right: 20%;
 }
@@ -39,4 +40,17 @@
 
 .interested-section {
     text-align: center;
+    padding: 75px;
+    background-color: #FFD700;
+}
+
+@media screen and (max-width: 800px) {
+    .info-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-container {
+        padding: 30px;
+    }
 }

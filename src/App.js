@@ -6,22 +6,15 @@ import {
 } from "react-router-dom";
 
 import Home from "./app/views/Home";
+import InterestedStudents from "./app/views/InterestedStudents";
 import Resources from "./app/views/Resources";
 
 function App() {
   return (
     <Router>
-
-
-      <Switch>
-        <Route path = "/">
-            <Home/>
-        </Route>
-        <Route path = "/resources">
-            <Resources/>
-        </Route>
-      </Switch>
-
+      <Route exact path="/" component={Home}/>
+      <Route exact path="/interested-students" component={InterestedStudents}/>
+      <Route exact path="/resources" component={Resources}/>
     </Router>
   );
 }

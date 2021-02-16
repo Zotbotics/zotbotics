@@ -11,8 +11,8 @@ const GlobalNavBar = () => {
             <Navbar.Toggle aria-controls = "navbar"/>
             <Navbar.Collapse id = "navbar">
                 <Nav className = "mr-auto">
-                    <Nav.Link>Home</Nav.Link>
-                    <Nav.Link href = "">Interested Students</Nav.Link>
+                    <Nav.Link href = "/">Home</Nav.Link>
+                    <Nav.Link href = "/interested-students">Interested Students</Nav.Link>
                     <Nav.Link href = "/resources">Resources</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
