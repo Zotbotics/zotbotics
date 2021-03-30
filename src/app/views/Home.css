@@ -38,6 +38,11 @@
     padding: 20px;
 }
 
+.faq-header {
+    text-align: center;
+    font-size: 20px;
+}
+
 .interested-section {
     text-align: center;
     padding: 75px;
