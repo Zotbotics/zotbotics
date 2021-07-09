@@ -14,6 +14,7 @@ const GlobalNavBar = () => {
                     <Nav.Link href = "/">Home</Nav.Link>
                     <Nav.Link href = "/interested-students">Interested Students</Nav.Link>
                     <Nav.Link href = "/resources">Resources</Nav.Link>
+                    <Nav.Link href = "/calendar">Calendar</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
