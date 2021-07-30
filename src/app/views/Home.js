@@ -17,7 +17,7 @@ const Home = () => {
                 <div className="text-container">
                     Zotbotics is a project based robotics club at UCI, open to all majors and experience levels.
                     We are a club dedicated to exploring the field of robotics as well as building interesting and creative projects.
-        </div>
+                </div>
             </div>
             <div className="info-section">
                 <div className="p-5">
@@ -30,7 +30,7 @@ const Home = () => {
                 <img className='meeting' src={Meeting} alt='Zotbotics Meeting' />
             </div>
 
-            <Accordion>
+            <Accordion className="accordion">
                 <p className = "faq-header">Frequently Asked Questions</p>
                 <Card>
                     <Accordion.Toggle as={Card.Header} eventKey="0">
@@ -58,7 +58,7 @@ const Home = () => {
                 </Card>
                 <Card>
                     <Accordion.Toggle as={Card.Header} eventKey="3">
-                    When does Zotbotics meet?
+                    When and where does Zotbotics meet?
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="3">
                     <Card.Body>Meetings tend to shift quarter to quarter. Therefore to stay best updated, feel free to reach out via our email or Discord.</Card.Body>
