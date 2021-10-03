@@ -40,7 +40,7 @@
 
 .faq-header {
     text-align: center;
-    font-size: 20px;
+    font-size: 28px;
 }
 
 .interested-section {
@@ -60,6 +60,9 @@
     }
 }
 
-.card-accordion {
-    margin: 1rem;
+
+.accordion {
+    margin: auto;
+    width: 75%;
+    margin-bottom: 3em;
 }
